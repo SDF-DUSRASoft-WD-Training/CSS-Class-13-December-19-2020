@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.flag-box{
+    width: 800px;
+    height: 500px;
+    background-color: green;
+
+    margin: 100px auto;
+
+    position: relative;
+}
+
+.flag-circle{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border-radius: 100%;
+
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+.lathi{
+    width: 10px;
+    height: 1000px;
+    background-color: #000;
+
+    position: absolute;
+    right: 0;
+}

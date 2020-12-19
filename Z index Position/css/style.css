@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 800px;
+    position: relative;
+}
+
+img{
+    width: auto;
+    max-width: 100%;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    text-align: right;
+    position: absolute;
+}
+
+.boro{
+    background-color: black;
+    color: #fff;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+}
+.shesho{
+    background-color: rgb(212, 115, 115);
+    top: 100px;
+    left: 100px;
+    z-index: 0;
+}
+.Mejo{
+    background-color: rgb(160, 113, 113);
+    top: 200px;
+    left: 200px;
+    z-index: 3333;
+}
+.Choto{
+    background-color: rgb(20, 159, 223);
+    top: 300px;
+    left: 300px;
+    z-index: 4444;
+}
